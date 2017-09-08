@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bwie.test94.MainActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#ff3333"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/user"
+            android:src="@drawable/user"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="今日头条"
+            android:textColor="@color/main_textView"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_height="50dp" />
+        <ImageView
+            android:id="@+id/shezhi"
+            android:src="@drawable/shezhi"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+
+<com.example.kson.tablayout.widget.HorizontalScollTabhost
+    android:id="@+id/tab_lin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></com.example.kson.tablayout.widget.HorizontalScollTabhost>
+
+    </LinearLayout>
+
